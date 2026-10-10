@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Contacto | HealthyFit</title>
+        <meta content="#176449" name="theme-color"/>
+        <meta content="HealthyFit: entrenamiento personalizado, nutrición y bienestar para una vida equilibrada." name="description"/>
+        <link href="estilos.css" rel="stylesheet"/>
+    </head>
+    <body class="page-contacto">
+        <a class="skip" href="#contenido">Saltar al contenido</a>
+        <header>
+            <a class="logo" href="index.html"><span aria-hidden="true" class="brand-icon">H<span>+</span></span>Healthy<span class="brand-light">Fit</span></a>
+            <button aria-controls="menu-principal" aria-expanded="false" class="menu-toggle" hidden="">Menú <span aria-hidden="true">☰</span></button>
+            <nav aria-label="Navegación principal" id="menu-principal">
+                <a href="index.html">Inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="blog.html">Blog</a>
+                <a aria-current="page" href="contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <main id="contenido">
+            <p class="eyebrow">HEALTHYFIT · DAMOS EL PRIMER PASO CONTIGO</p>
+            <div class="contact-layout">
+                <section>
+                    <h1>Contáctanos</h1>
+                    <p>Estamos aquí para ayudarte. Escríbenos y cuéntanos tus objetivos.</p>
+                    <p class="form-note">Formulario de demostración: valida tus datos, pero no envía mensajes.</p>
+                    <form action="#" class="fullform" method="post">
+                        <div class="field">
+                            <label for="nombre">Nombre</label>
+                            <input autocomplete="name" id="nombre" name="nombre" placeholder="Tu nombre completo" required="" type="text"/>
+                        </div>
+                        <div class="field">
+                            <label for="correo">Correo electrónico</label>
+                            <input autocomplete="email" id="correo" name="correo" placeholder="tu@correo.com" required="" type="email"/>
+                        </div>
+                        <div class="field">
+                            <label for="telefono">Teléfono</label>
+                            <input autocomplete="tel" id="telefono" name="telefono" placeholder="Tu número de contacto" required="" type="tel"/>
+                        </div>
+                        <div class="field">
+                            <label for="servicio">Servicio de interés</label>
+                            <select id="servicio" name="servicio"><option value="">Selecciona un servicio</option>Entrenamiento personalizado<option value="nutricion">Nutrición</option><option value="bienestar">Bienestar</option></select>
+                        </div>
+                        <div class="field">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué te gustaría lograr…" required="" rows="4"></textarea>
+                        </div>
+                        <button type="submit">Validar formulario →</button>
+                        <p class="status" role="status"></p>
+                    </form>
+                </section>
+                <aside class="contact-info">
+                    <h2>Información de contacto</h2>
+                    <p>Calle Ficticia 123<br/>Lima, Peru</p>
+                    <p>912 345 678</p>
+                    <p>HEAL@healthyfit.com</p>
+                    <p>Lunes – Viernes<br/>9:00 – 18:00</p>
+                    <hr/>
+                    <h2>Ubicación</h2>
+                    <div class="location-panel">
+                        <strong>HealthyFit</strong>
+                        <p>Atención de entrenamiento, nutrición y bienestar.</p>
+                        <small>Dirección ilustrativa del proyecto</small>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <a class="logo" href="index.html"><span aria-hidden="true" class="brand-icon">H<span>+</span></span>Healthy<span class="brand-light">Fit</span></a>
+            <p class="footer-tagline">Muévete. Nútrete. Encuentra tu equilibrio.</p>
+            <small>© 2026 HealthyFit. Todos los derechos reservados.</small>
+        </footer>
+        <script src="script.js">
+</script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+HEALTHYFIT — CÓDIGO ORDENADO
+
+Extrae el ZIP completo y abre index.html.
+HTML, CSS y JavaScript con sangría de cuatro espacios.
+Se conservan los textos, rutas, estilos y funciones de los archivos adjuntos.
+Las cinco páginas siguen separadas.
+Copia tus fotografías en imagenes usando los nombres de las rutas src del HTML.
+Esta entrega da formato a los archivos que adjuntaste; esos archivos no incluyen la sección de video de la otra versión.
